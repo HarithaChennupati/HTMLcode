@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('clone data') {
       steps {
-        bat 'clone git https://github.com/HarithaChennupati/HTMLcode.git'
+        bat 'git clone https://github.com/HarithaChennupati/HTMLcode.git'
       }
     }
 
